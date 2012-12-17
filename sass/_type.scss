@@ -1,0 +1,16 @@
+html {
+ font-size:100%;
+ line-height:1.5;
+}
+
+body {
+  font-family:$bodyFont;
+}
+
+.heading {
+  font-family: $headingFont;
+}
+
+h1, h2, h3, {
+  @extend .heading;
+}
