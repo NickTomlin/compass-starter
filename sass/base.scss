@@ -7,12 +7,14 @@
 @import "compass/css3";
 @import "compass/utilities/general/clearfix";
 
-// Box size all the things!
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 /* ==========================================================================
    Reset
    ========================================================================== */
 @import "normalize";
+
+// Box size all the things!
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
 /* ==========================================================================
    Variables/Mixins
    ========================================================================== */
